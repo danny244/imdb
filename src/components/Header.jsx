@@ -6,7 +6,7 @@ import DarkModeSwitch from "./DarkModeSwitch"
 
 const Header = () => {
      return (
-          <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
+          <div className="flex justify-between items-center pb-5 pt-8 max-w-6xl mx-auto">
                <Link href={"/"}>
                     <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">IMDB</span>
                </Link>
