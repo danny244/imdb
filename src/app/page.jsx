@@ -15,6 +15,6 @@ export default async function Home({searchParams}) {
      const results = data.results
 
      return (
-         <Result results={results} />
+         <Result results={results || null} />
      );
 }
